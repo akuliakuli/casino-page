@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+  }
+
+  body{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#383838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  li{
+    text-decoration-line: none;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .header-container{
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:#1c1c1c;
+  }
+  .header-menu-items{
+    display: flex;
+    gap: 20px;
+    margin-left: 9em;
+  }
+  .header-menu-item a{
+    color:#ffffff;
+    font-size: 1em;
+  }
+  .header-login{
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+  }
+  .header-login a {
+    padding: 10px 20px;
+  }
+  .header-sign-in{
+    color: white;
+  }
+  .header-login-active{
+    background-color: yellow;
+    color: black;
+  }
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .main-content-image{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  .main-slot-photo{
+    width: 100%;
+  }
+  .main-games-menu{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+    background-color:#494949;
+  }
+  .main-games-search{
+    background-color:#4e4e4e;
+    color:#4e4e4e;
+    border:1px solid #4e4e4e;
+    padding: 10px;
+    font-size: 1.3em;
+  }
+  .main-menu-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 2em;
+  }
+  .main-menu-header h1, a{
+    color:#ffffff;
+    font-size: 1.2em;
+  }
+  .main-games-title mark{
+    color:#d0c610;
+    background:none
+  }
+  .main-search{
+    position: absolute;
+    left: 970px;
+  }
+  .main-line{
+    margin-top: 10px;
+    width: 100%;
+    height: 1px;
+    background-color:#9b9b9b;
+    color:#9b9b9b;
+  }
+  .main-games-dropdown{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .main-menu-sections{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 0px 20px;
+    gap: 40px;
+  }
+  .main-menu-item{
+    flex-grow: 1;
+    height: 100px;
+    color:#8b8b8b;
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-menu-item:nth-of-type(1){
+    color:#fff209;
+  }
+  .main-games-list{
+    margin-top: 20px;
+  }
+  .main-menu-img{
+    height: 30px;
+  }
+  .main-show-more{
+    background-color: #9b9b9b;
+    color: whitesmoke;
+    align-self: flex-end;
+    padding: 10px;
+    font-size: 1em;
+  }
+  .main-show-more:hover{
+    border: 1px solid black;
+  }
+  .main-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-game h1{
+    color:#9b9b9b;
+    font-size: 1em;
+  }
