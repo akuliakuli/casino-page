@@ -66,7 +66,7 @@ class PageInteraction extends Request{
     }
     }
 
-let b = new Request(".main-games-list",".main-games-search",".main-show-more");
+let b = new PageInteraction(".main-games-list",".main-games-search",".main-show-more");
 
 b.sendReq("https://jsonplaceholder.typicode.com/todos/1")
 b.sendReqImg("https://static.inpcdn.com/CdnUrl")
