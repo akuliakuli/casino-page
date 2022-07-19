@@ -51,6 +51,7 @@ class Request{
 class PageInteraction extends Request{
     render(){
         this.count = 60;
+        this.parent.innerHTML = ""
         for(let i = 0; i <= this.count; i++){
             this.parent.innerHTML += `
             <div class="main-game">
